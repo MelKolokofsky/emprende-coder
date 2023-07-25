@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap');
+
+/*-----RESET-----*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*-----HEADER------*/
+
+header{
+    background-color: white;
+    padding: 15px 35px 15px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2{
+    font-family: 'Roboto', sans-serif;
+    font-size:small;
+    font-weight: 20px;
+    font-style: normal;
+    color: rgb(19, 11, 66);
+    margin-left: 45px;
+}
+
+header nav ul{
+    list-style: none;
+    color: white;
+    display: flex;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 5px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(19, 11, 66);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 10px;
+    font-style: normal;
+}
+
+header nav ul li a:hover{
+    color: rgb(109, 93, 198);
+}
+
+header h1{
+    color: rgb(19, 11, 66);
+    font-family: 'Roboto', sans-serif 0,700;
+    font-weight: 50%;
+    font-size: 60px;
+    font-style: unset;
+}
+
+
+/*------MAIN-------*/
+
+body{
+    background-color: white;
+}
+
+.emprendimiento h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: 500;
+    background-color: rgba(19, 11, 66, 0.708);
+}
+
+.emprendimiento h2{
+    display: inline-block;
+    font-size: 60px;
+    padding: 15px;
+}
+
+.emprendimiento{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height:calc(100vh - 179.2px);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../img/fondo-reemplazo.jpg)
+}
+
+.emprendimiento p{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.boton{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(19, 11, 66);
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.boton-mas{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(19, 11, 66);
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    width: 15%;
+    height: 10%;
+}
+
+.emprende .boton{
+    margin: 15px;
+}
+
+.emprende{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.emprende div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.emprende .card-flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.emprende h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 100%;
+    font-style: normal;
+    background-color: rgb(19, 11, 66);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-top: 25px;
+    width: 30%;
+    text-align: center;
+}
+
+.emprende h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: initial;
+}
+
+.emprende p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.cuadrados{
+    margin-bottom: 40px;
+    border: 2px black solid ;
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 9px 12px 57px 15px rgba(0,0,0,0.75);
+-webkit-box-shadow: 9px 12px 57px 15px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 12px 57px 15px rgba(0,0,0,0.75);
+}
+
+.emprende a:hover{
+    background-color:white;
+    color: rgb(19, 11, 66);
+}
+
+.servicios{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.servicios .boton{
+    margin: 15px;
+}
+
+.servicios .card-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.servicios h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 100%;
+    font-style: normal;
+    padding-top: 45px;
+    background-color: rgb(19, 11, 66);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-top: 35px;
+}
+
+.servicios h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: initial;
+}
+
+.servicios p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.servicios .card-flex div{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.495);
+    margin: 30px;
+    box-shadow: 9px 12px 57px 15px rgba(0,0,0,0.75);
+-webkit-box-shadow: 9px 12px 57px 15px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 12px 57px 15px rgba(0,0,0,0.75);
+}
+
+.servicios div h3{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.servicios div img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.servicios div p{
+    margin-bottom: 35px;
+}
+
+.servicios div a:hover{
+    background-color: white;
+    color: rgb(19, 11, 66);
+}
+
+.servicios a:hover{
+    background-color: white;
+    color: rgb(19, 11, 66);
+}
+
+.position{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.position img{
+    width: 50px;
+}
+
+.trabajo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.trabajo h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 45px;
+    background-color: rgb(19, 11, 66);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-top: 25px;
+}
+
+.trabajo p{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 25px;
+    padding-bottom: 80px;
+}
+
+.trabajo .boton{
+    margin: 15px;
+}
+
+.trabajo a:hover{
+    background-color: white;
+    color: rgb(19, 11, 66);
+}
+
+.grid-galeria{
+    margin-top: 150px;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 250px;
+    gap: 15px;
+    padding-bottom: 70px;
+}
+
+.grid-galeria div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-item{
+    box-shadow: 9px 12px 57px 15px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 9px 12px 57px 15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 12px 57px 15px rgba(0,0,0,0.75);
+    position: relative;
+}
+
+.grid-item h3{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: rgba(19, 11, 66, 0.675);
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-1{
+    grid-row: span 2;
+}
+
+.img-3{
+    grid-row: span 2;
+}
+
+.img-9{
+    grid-column: span 2;
+}
+/*------FOOTER-----*/
+
+footer div iframe{
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+}
+
+footer div a img{
+    width: 30px;
+    height: 30px;
+}
+
+footer h2{
+    color: rgb(19, 11, 66);
+    font-family: 'Roboto', sans-serif 0,700;
+    font-size: 40px;
+    font-style: normal;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 210px;
+}
+
+
+/*-----NOSOTROS-----*/
+
+.logo{
+    color: rgb(19, 11, 66);
+    font-family: 'Roboto', sans-serif 0,700;
+    font-weight: 40%;
+    font-size: 60px;
+    font-style: unset;
+}
+
+header nav ul{
+    text-decoration: none;
+    color: rgb(19, 11, 66);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 10px;
+    font-style: normal;
+    align-items: center;
+}
+
+.equipo{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        width: 100%;
+        height:25vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url(../img/fondo-reemplazo.jpg)
+}
+
+.equipo h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: 500;
+    background-color: rgba(19, 11, 66, 0.708);
+}
+
+.nosotros1{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 0,100;
+    font-style: normal;
+    color: rgba(19, 11, 66);
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer{
+    background-color:rgb(19, 11, 66);
+}
+
+footer h2{
+    color: white;
+}
+
+.redes i{
+    font-size: 30px;
+    color: white;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----CONTACTO-----*/
+
+.contacto{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height:25vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../img/fondo-reemplazo.jpg)
+}
+
+.contacto h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: 500;
+    background-color: rgba(19, 11, 66, 0.708);
+}
+
+form{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+form h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+textarea{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px;
+}
+
+form div input{
+    padding: 8px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form div input:hover{
+    background-color: rgb(19, 11, 66);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------MEDIA QUERY------*/
+
+@media screen and (max-width:950px){
+    .grid-galeria{
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 220px;
+    }
+
+    .grid-item{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .img-9{
+        grid-column: span 2;
+    }
+
+    .card-flex{
+        flex-direction: column;
+    }
+
+    .card-flex1{
+        flex-direction: column;
+    }
+
+    .emprende div p{
+        width: 80%;
+        text-align: center;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width:780px){
+    .emprendimiento h2{
+        font-size: 40px;
+    }
+
+    .emprendimiento p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    header{
+        position: static;
+        flex-direction: column;
+    }
+
+    .position{
+        display: none;
+    }
+
+    .emprendimiento h2{
+        font-size: 30px;
+    }
+
+    .emprendimiento p{
+        font-size: 15px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:550px){
+    header{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:450px){
+    .grid-galeria{
+        grid-template-columns: 1fr;
+    }
+
+    .grid-item{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .emprendimiento h2{
+        font-size: 25px;
+    }
+
+    .emprendimiento p{
+        font-size: 10px;
+    }
+}
+
